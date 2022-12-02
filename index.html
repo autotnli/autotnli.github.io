@@ -15,7 +15,7 @@
 	<section class="page-header">
 		<h1><img src="figures/logo.png" style="max-width:42%;"></h1>
 		<a href="https://vgupta123.github.io/docs/autotnli.pdf" class="btn">Paper</a>
-		<a href="https://drive.google.com/drive/folders/1xzgkvg6_7US8sJlROe7jaEfIT1QCuT92?usp=sharing"
+		<a href="https://drive.google.com/file/d/1Db38iik9aHpHfbxIWc2WLAJA4S5FTW9R/view?usp=share_link"
 			class="btn">Dataset</a>
 		<!-- <a href="explore.html" class="btn">Explore</a> -->
 		<a href="https://github.com/Dibyakanti/AutoTNLI-code" class="btn">Code</a>
@@ -170,33 +170,36 @@
 					href="https://www.linkedin.com/in/soummyaah/">Soumya Sharma</a> and <a
 					href="https://imsure318.github.io/">Shuo Zhang</a>. </figcaption>
 		</figure>
-		<!-- <h2><a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span
+		<h2><a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span
 					class="octicon octicon-link"></span></a>Citation</h2>
-		<p style="text-align: justify;"> Please cite our paper as below if you use the INFOTABS dataset.</p>
-		<pre><code>@inproceedings{gupta-etal-2020-infotabs,
-    title = "{INFOTABS}: Inference on Tables as Semi-structured Data",
-    author = "Gupta, Vivek  and
-      Mehta, Maitrey  and
-      Nokhiz, Pegah  and
-      Srikumar, Vivek",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.210",
-    pages = "2309--2324",
-    abstract = "In this paper, we observe that semi-structured tabulated text is ubiquitous; understanding them requires not only comprehending the meaning of text fragments, but also implicit relationships between them. We argue that such data can prove as a testing ground for understanding how we reason about information. To study this, we introduce a new dataset called INFOTABS, comprising of human-written textual hypotheses based on premises that are tables extracted from Wikipedia info-boxes. Our analysis shows that the semi-structured, multi-domain and heterogeneous nature of the premises admits complex, multi-faceted reasoning. Experiments reveal that, while human annotators agree on the relationships between a table-hypothesis pair, several standard modeling strategies are unsuccessful at the task, suggesting that reasoning about tables can pose a difficult modeling challenge.",
-}</code></pre> -->
+		<p style="text-align: justify;"> Please cite our paper as below if you use AutoTNLI.</p>
+		<pre><code>@inproceedings{kumar-etal-2022-autotnli,
+			title = "Realistic Data Augmentation Framework for Enhancing Tabular Reasoning",
+			author = "Kumar, Dibyakanti  and
+			  Gupta, Vivek  and
+			  Sharma, Soumya  and
+			  Zhang, Shuo",
+			booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+			month = dec,
+			year = "2022",
+			address = "Online and Abu Dhabi",
+			publisher = "Association for Computational Linguistics",
+			url = "https://vgupta123.github.io/docs/autotnli.pdf",
+			pages = "",
+			abstract = "Existing approaches to constructing training data for Natural Language Inference (NLI) tasks, such as for semi-structured table reasoning, are either via crowdsourcing or fully automatic methods. However, the former is expensive and time-consuming and thus limits scale, and the latter often produces naive examples that may lack complex reasoning. This paper develops a realistic semi-automated framework for data augmentation for tabular inference. Instead of manually generating a hypothesis for each table, our methodology generates hypothesis templates transferable to similar tables. In addition, our framework entails the creation of rational counterfactual tables based on human written logical constraints and premise paraphrasing. For our case study, we use the InfoTabS (Gupta et al., 2020), which is an entity-centric tabular inference dataset. We observed that our framework could generate human-like tabular inference examples, which could benefit training data augmentation, especially in the scenario with limited supervision.",
+		}</code></pre>
 		<h2><a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span
 					class="octicon octicon-link"></span></a>Acknowledgement</h2>
 		<p style="text-align: justify;">We thank members of the <a href="http://nlp.cs.utah.edu/">Utah NLP group</a> for
 			their valuable insights and
-			suggestions at various stages of the project; and <a href="https://2022.emnlp.org/">EMNLP 2022</a> reviewers their helpful comments. We thank Antara
+			suggestions at various stages of the project; and <a href="https://2022.emnlp.org/">EMNLP 2022</a> reviewers
+			their helpful comments. We thank Antara
 			Bahursettiwar for her valuable feedback. Additionally, we appreciate the inputs provided by <a
 				href="https://svivek.com/">Vivek Srikumar</a>
 			and <a href=http://www.cs.utah.edu/~riloff/">Ellen Riloff</a>. <a href="https://vgupta123.github.io/">Vivek
-				Gupta</a> acknowledges support from <a href="https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/">Bloomberg's Data Science Ph.D. Fellowship</a>.
+				Gupta</a> acknowledges support from <a
+				href="https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/">Bloomberg's
+				Data Science Ph.D. Fellowship</a>.
 		</p>
 		<footer class="site-footer">
 			<span class="site-footer-owner"><a href="https://autotnli.github.io">AutoTNLI</a> is maintained by
