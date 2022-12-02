@@ -77,6 +77,13 @@ a:hover {
   width: 50%;
 }
 
+.center_exp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .page-header {
   color: #fff;
   text-align: center;
